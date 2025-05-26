@@ -728,6 +728,10 @@ video {
   margin-left: 0.75rem;
 }
 
+.ml-auto{
+  margin-left: auto;
+}
+
 .mt-16{
   margin-top: 4rem;
 }
@@ -1606,6 +1610,20 @@ body, html {
 .hover\:text-white:hover{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.focus\:border:focus{
+  border-width: 1px;
+}
+
+.focus\:border-amber-500:focus{
+  --tw-border-opacity: 1;
+  border-color: rgb(245 158 11 / var(--tw-border-opacity, 1));
+}
+
+.focus\:border-offblack-500:focus{
+  --tw-border-opacity: 1;
+  border-color: rgb(18 18 18 / var(--tw-border-opacity, 1));
 }
 
 .focus\:outline-none:focus{
