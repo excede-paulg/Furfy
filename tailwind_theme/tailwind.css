@@ -1008,6 +1008,11 @@ video {
   gap: 2rem;
 }
 
+.gap-x-10{
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
+}
+
 .gap-y-6{
   row-gap: 1.5rem;
 }
@@ -1111,6 +1116,16 @@ video {
   border-color: rgb(163 163 163 / var(--tw-border-opacity, 1));
 }
 
+.border-offblack-200{
+  --tw-border-opacity: 1;
+  border-color: rgb(139 139 139 / var(--tw-border-opacity, 1));
+}
+
+.border-offblack-400{
+  --tw-border-opacity: 1;
+  border-color: rgb(55 55 55 / var(--tw-border-opacity, 1));
+}
+
 .border-offblack-500{
   --tw-border-opacity: 1;
   border-color: rgb(18 18 18 / var(--tw-border-opacity, 1));
@@ -1143,6 +1158,11 @@ video {
 .bg-offblack-400{
   --tw-bg-opacity: 1;
   background-color: rgb(55 55 55 / var(--tw-bg-opacity, 1));
+}
+
+.bg-offblack-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(18 18 18 / var(--tw-bg-opacity, 1));
 }
 
 .bg-white{
@@ -1501,6 +1521,11 @@ body, html {
 
 /* Pinegrow generated Design Panel Extra Rules End */
 
+.hover\:border-offblack-500:hover{
+  --tw-border-opacity: 1;
+  border-color: rgb(18 18 18 / var(--tw-border-opacity, 1));
+}
+
 .hover\:bg-gray-100:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
@@ -1509,6 +1534,16 @@ body, html {
 .hover\:bg-offblack-50:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(235 235 235 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-white:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:text-offblack-500:hover{
+  --tw-text-opacity: 1;
+  color: rgb(18 18 18 / var(--tw-text-opacity, 1));
 }
 
 .hover\:text-white:hover{
@@ -1652,6 +1687,11 @@ body, html {
     gap: 3rem;
   }
 
+  .md\:gap-x-10{
+    -moz-column-gap: 2.5rem;
+         column-gap: 2.5rem;
+  }
+
   .md\:self-center{
     align-self: center;
   }
@@ -1686,6 +1726,10 @@ body, html {
 }
 
 @media (min-width: 1024px){
+  .lg\:col-span-8{
+    grid-column: span 8 / span 8;
+  }
+
   .lg\:w-1\/4{
     width: 25%;
   }

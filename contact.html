@@ -77,7 +77,7 @@
     <main class="-mt-8 flex flex-col gap-12 py-8">
         <section class="max-w-5xl mx-auto px-6 md:px-0">
             <h2 class="font-bold mb-3 text-3xl text-center uppercase">Contact us</h2>
-            <div class="gap-12 grid md:grid-cols-12">
+            <div class="grid md:gap-x-10 md:grid-cols-12">
                 <div class="col-span-12 md:col-span-4">
                     <p class="font-semibold leading-normal mb-6 text-xl md:text-2xl">The best way to get in touch with us is to fill out the contact form.</p>
                     <p class="leading-normal text-xl md:text-2xl mb-6">If your enquiry is regarding an order, please include your order number ie. FF1001</p>
@@ -90,38 +90,38 @@
                 <!-- Form copied from Potty Plant (for functionality purposes). Removed htmx functions -->
                 <form class="col-span-12 md:col-span-8 flex flex-col space-y-3" id="contact-us-form">
                     <div class="relative">
-                        <input type="text" id="fullName" name="full_name" class="block px-2.5 pb-2.5 pt-4 w-full text-base text-neutral-500 bg-white rounded-sm shadow-sm border border-neutral-400 appearance-none peer focus:border-ppgreen-500 focus:ring-ppgreen-500" placeholder=" " required="">
-                        <label for="fullName" class="absolute text-sm text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white px-2 peer-focus:px-2 peer-focus:text-grey-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1">Your Name <span class="text-red-500">*</span>
+                        <input type="text" id="fullName" name="full_name" class="appearance-none bg-white block border border-offblack-200 pb-2.5 peer pt-4 px-2.5 rounded-md shadow-sm text-lg text-offblack-500 w-full" placeholder=" " required="">
+                        <label for="fullName" class="absolute text-sm text-offblack-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white px-2 peer-focus:px-2 peer-focus:text-grey-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1">Your Name <span class="text-red-500">*</span>
                         </label>
                     </div>
                     <div class="relative">
-                        <input type="email" id="email" name="email" class="block px-2.5 pb-2.5 pt-4 w-full text-base text-neutral-500 bg-white rounded-sm shadow-sm border-1 border-neutral-400 appearance-none peer focus:border-ppgreen-500 focus:ring-ppgreen-500" placeholder=" " required="">
-                        <label for="email" class="absolute text-sm text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white px-2 peer-focus:px-2 peer-focus:text-grey-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1">Your Email <span class="text-red-500">*</span>
+                        <input type="email" id="email" name="email" class="appearance-none bg-white block border border-offblack-200 pb-2.5 peer pt-4 px-2.5 rounded-md shadow-sm text-lg text-offblack-500 w-full" placeholder=" " required="">
+                        <label for="email" class="absolute text-sm text-offblack-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white px-2 peer-focus:px-2 peer-focus:text-grey-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1">Your Email <span class="text-red-500">*</span>
                         </label>
                     </div>
                     <div class="relative">
-                        <input type="tel" id="phone" name="phone" class="block px-2.5 pb-2.5 pt-4 w-full text-base text-neutral-500 bg-white rounded-sm shadow-sm border-1 border-neutral-400 appearance-none peer focus:border-ppgreen-500 focus:ring-ppgreen-500" placeholder=" ">
-                        <label for="phone" class="absolute text-sm text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white px-2 peer-focus:px-2 peer-focus:text-grey-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1">Your Phone Number
+                        <input type="tel" id="phone" name="phone" class="appearance-none bg-white block border border-offblack-200 pb-2.5 peer pt-4 px-2.5 rounded-md shadow-sm text-lg text-offblack-500 w-full" placeholder=" ">
+                        <label for="phone" class="absolute text-sm text-offblack-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white px-2 peer-focus:px-2 peer-focus:text-grey-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1">Your Phone Number
                         </label>
                     </div>
                     <div class="relative">
-                        <input type="text" id="orderNumber" name="orderNumber" class="block px-2.5 pb-2.5 pt-4 w-full text-base text-neutral-500 bg-white rounded-sm shadow-sm border-1 border-neutral-400 appearance-none peer focus:border-ppgreen-500 focus:ring-ppgreen-500" placeholder=" ">
-                        <label for="orderNumber" class="absolute text-sm text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white px-2 peer-focus:px-2 peer-focus:text-grey-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1">Order Number (if you are a customer)
+                        <input type="text" id="orderNumber" name="orderNumber" class="appearance-none bg-white block border border-offblack-200 pb-2.5 peer pt-4 px-2.5 rounded-md shadow-sm text-lg text-offblack-500 w-full" placeholder=" ">
+                        <label for="orderNumber" class="absolute text-sm text-offblack-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white px-2 peer-focus:px-2 peer-focus:text-grey-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1">Order Number (if you are a customer)
                         </label>
                     </div>
                     <div class="sm:col-span-2">
-                        <label for="message" class="mb-2 ml-3 text-[10px] text-gray-500 scale-75 top-2 z-10">Provide a detailed description here
+                        <label for="message" class="mb-2 ml-3 text-[10px] text-offblack-500 scale-75 top-2 z-10">Provide a detailed description here
                             <span class="text-red-500">*</span>
                         </label>
-                        <textarea id="message" name="message" rows="6" class="block p-2.5 w-full text-base text-neutral-500 bg-white rounded-sm shadow-sm border border-neutral-400 focus:border-ppgreen-500 focus:ring-ppgreen-500" placeholder=" " required=""></textarea>
+                        <textarea id="message" name="message" rows="6" class="appearance-none bg-white block border border-offblack-200 p-2.5 rounded-md shadow-sm text-lg text-offblack-500 w-full" placeholder=" " required=""></textarea>
                     </div>
-                    <button type="submit" name="submit" class="bg-coral-500 duration-200 font-bold px-4 py-2 rounded-3xl w-full text-white text-xl uppercase w-48 z-10 focus:outline-none focus:ring-4 focus:ring-coral-300 hover:bg-coral-700 hover:border-coral-500 hover:text-white">
+                    <button type="submit" name="submit" class="bg-white hover:bg-offblack-50 duration-200 border-4 border-offblack-500 font-bold mx-auto px-8 py-2 rounded-md shadow-md text-2xl uppercase">
                         Send
                     </button>
-                    <p class="mb-6 text-center text-neutral-400 text-xs lg:text-right">
+                    <!-- <p class="mb-6 text-center text-offblack-500 text-xs">
                         This site is protected by reCAPTCHA and the Google Privacy
                         Policy&nbsp;and Terms of Service&nbsp;apply.
-                    </p>
+                    </p> -->
                 </form>
             </div>
         </section>
