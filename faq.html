@@ -12,7 +12,7 @@
 </head>
 
 <body class="text-offblack-500">
-    <header class="bg-Yellow-500 p-6 sticky top-0 z-20">
+    <header class="bg-Yellow-500 pb-1 pt-6 px-6 sticky top-0 z-20">
         <div class="gap-0 grid grid-cols-3 items-center">
             <!-- Hamburger Menu -->
             <button id="menu-button" class="cursor-pointer focus:outline-none w-fit">
@@ -25,11 +25,11 @@
 
             <!-- Logo -->
             <a href="/" class="col-span-1">
-                <img src="assets/images/furfylogo_1.svg" width="200" height="96" class="mx-auto" alt="Furfy. The World's Best Pet Hair Remover">
+                <img src="assets/images/furfylogo_1.svg" width="200" height="96" class="mx-auto w-32" alt="Furfy. The World's Best Pet Hair Remover">
             </a>
 
             <!-- Cart -->
-            <svg xmlns="http://www.w3.org/2000/svg" id="none" viewBox="0 0 249.03 326.31" width="44" height="58" class="place-self-end self-center">
+            <svg xmlns="http://www.w3.org/2000/svg" id="none" viewBox="0 0 249.03 326.31" width="44" height="58" class="place-self-end self-center w-8">
                 <defs>
                     <style>.cls-1, .cls-2 { fill: none; stroke-width: 15px; } .cls-1 { stroke: #231f20; stroke-linejoin: round; } .cls-2 { stroke: #010101; stroke-miterlimit: 10; }</style>
                 </defs>
@@ -39,7 +39,7 @@
             </svg>
         </div>
 
-        <h1 class="font-bold leading-tight mt-4 text-2xl text-center uppercase">The World's Best Pet Hair Remover</h1>
+        <h1 class="font-normal leading-tight mt-2 text-base text-center uppercase">The World's Best Pet Hair Remover</h1>
     </header>
 
     <!-- Overlay (covers screen) -->
@@ -60,11 +60,8 @@
                 </button>
             </div>
 
-            <h2 class="font-bold leading-tight text-lg uppercase">The World's Best <span class="block md:inline">Pet
-                    Hair Remover</span></h2>
-
             <nav>
-                <ul class="font-normal mt-16 space-y-8 text-black/55 text-xl uppercase">
+                <ul class="font-normal mt-8 space-y-4 text-black/55 text-xl uppercase">
                     <li><a href="/" class="menu-item w-2/4">Home</a></li>
                     <li><a href="faq.html" class="menu-item w-2/4 active">FAQ</a></li>
                     <li><a href="about.html" class="menu-item w-2/4">About</a></li>
@@ -74,69 +71,226 @@
         </div>
     </div>
 
-    <main class="-mt-8 flex flex-col gap-12 py-8">
-        <section class="max-w-4xl mx-auto gap-6 px-6 lg:px-0">
-            <h2 class="font-bold mb-3 text-3xl text-center uppercase">Frequently asked questions</h2>
-            <p class="font-bold leading-normal mb-6 text-xl md:text-2xl">Answers to our most-asked questions are covered below. If you can’t find the answer you’re looking for, please contact us and we will happily assist.</p>
+    <main class="-mt-8 flex flex-col gap-12 pb-8 pt-7">
+        <section class="max-w-3xl mx-auto gap-6 px-6 lg:px-0">
+            <h2 class="font-medium mb-3 text-2xl md:text-3xl text-center uppercase">Frequently asked questions</h2>
+            <p class="font-semibold leading-normal mb-6 text-lg text-offblack-400">Answers to our most-asked questions are covered below. If you can’t find the answer you’re looking for, please contact us and we will happily assist.</p>
+
+            <div class="mb-4 border border-offblack-200 rounded-lg">
+                <div class="relative">
+                    <input type="checkbox" id="faq1" class="accordion-checkbox">
+                    <label for="faq1" class="flex items-center justify-between p-4 pb-3 bg-white rounded-t-lg">
+                        <h2 class="font-medium leading-tight mb-2 text-xl w-[80%]">What is furfy?</h2>
+                        <svg class="w-6 h-6 text-gray-500 arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </label>
+                    <div class="accordion-content px-4 rounded-b-lg bg-white" style="border-bottom-left-radius: 0.5rem; border-bottom-right-radius: 0.5rem;">
+                        <p class="font-normal leading-normal text-lg text-offblack-400 mb-6">The furfy is the world’s best pet hair remover. It’s the last fur removal device you will ever need to buy. It’s 100% reusable, eco-friendly and doesn’t need any refills or a power source to operate.</p>
+                    </div>
+                </div>
+            </div>
             
-            <h3 class="font-semibold leading-tight mb-2 text-2xl">What is furfy?</h3>
-            <p class="leading-normal text-xl md:text-2xl mb-6">The furfy is the world’s best pet hair remover. It’s the last fur removal device you will ever need to buy. It’s 100% reusable, eco-friendly and doesn’t need any refills or a power source to operate.</p>
-
-            <h3 class="font-semibold leading-tight mb-2 text-2xl">How do I use furfy?</h3>
-            <ul class="leading-normal list-disc list-outside mb-6 pl-8 text-xl md:text-2xl">
-                <li>Place furfy onto surface and rapidly move back and forth until area is clear from hair and fur.</li>
-                <li>Make sure you press on the furfy firmly when rolling it back and forth on the surface.</li>
-                <li>Do not use the furfy directly on your pet. Recommended for use on surfaces and materials only.</li>
-                <li>Be sure to clean the dust receptacle regularly, and after use.</li>
-                <li>Do not wash the brush surface directly with water. If required, instead use a damp towel to clean the surface.</li>
-            </ul>
-
-            <h3 class="font-semibold leading-tight mb-2 text-2xl">Is furfy for me?</h3>
-            <p class="leading-normal text-xl md:text-2xl mb-6">If you say yes to any of the following questions, then the furfy is for you!</p>
-            <ul class="leading-normal list-disc list-outside mb-6 pl-8 text-xl md:text-2xl">
-                <li>Does your pet shed fur all over the place?</li>
-                <li>Are you sick of buying refills for removal devices over and over again?</li>
-                <li>Are you looking for a reusable, eco-friendly solution to pet hair?</li>
-                <li>You don’t want to use a power sourced device?</li>
-                <li>Are you looking for a device which is noise-free and won’t scare your pet away?</li>
-                <li>Do you want a remover which is easy to use, and you can clean with the push of a button?</li>
-                <li>Are you looking for something to remove that pet fur on the go, or when travelling?</li>
-            </ul>
-
-            <h3 class="font-semibold leading-tight mb-2 text-2xl">How does furfy work?</h3>
-            <p class="leading-normal text-xl md:text-2xl mb-6">By simply moving the furfy roller back and forth firmly, you immediately track and pick up pet hair embedded deeply in all of your household furniture, fabrics, carpets, car seats, and many other materials.</p>
-
-            <h3 class="font-semibold leading-tight mb-2 text-2xl">What is furfy made from?</h3>
-            <p class="leading-normal text-xl md:text-2xl mb-6">The furfy uses BPA-free plastic, making it a safer option for our pets and their humans! The furfy is built to last, it’s designed in Japan and carries a worldwide patent.</p>
-
-            <h3 class="font-semibold leading-tight mb-2 text-2xl">I have used other pet hair removers like this, so why is furfy different?</h3>
-            <p class="leading-normal text-xl md:text-2xl mb-6">There are cheap imitations that look very similar, but they don’t work effectively and do break easily. The furfy is 100% reusable, so it’s friendly for the environment and far less likely to end up in landfill.</p>
-
-            <h3 class="font-semibold leading-tight mb-2 text-2xl">How do i clean the furfy?</h3>
-            <p class="leading-normal text-xl md:text-2xl mb-6">Pet hair and lint can easily be removed from the dust receptacle by pressing the button on the roller and lifting the hatch.</p>
-
-            <h3 class="font-semibold leading-tight mb-2 text-2xl">Where does furfy deliver to?</h3>
-            <p class="leading-normal text-xl md:text-2xl mb-6">Furfy ships worldwide. Shipping is free within Australia and the USA, with a low flat rate to other countries.</p>
-
-            <h3 class="font-semibold leading-tight mb-2 text-2xl">How long will my furfy take to be delivered?</h3>
-            <p class="leading-normal text-xl md:text-2xl mb-6">Your order will be processed immediately and dispatched either on the same or next business day, so there’s no extended time waiting for your furfy. We ship from our warehouses in Sydney, Australia and Atlanta, USA.</p>
-
-            <h3 class="font-semibold leading-tight mb-2 text-2xl">Do you deliver internationally?</h3>
-            <p class="leading-normal text-xl md:text-2xl mb-6">Yes we sure do, with a low flat rate to international destinations.</p>
-
-            <h3 class="font-semibold leading-tight mb-2 text-2xl">Can i return furfy once its been opened?</h3>
-            <p class="leading-normal text-xl md:text-2xl mb-6">Yes. If you’re not totally satisfied with furfy, return your product (undamaged) to us within 30 days of purchase and we will provide you with a full refund.</p>
-
-            <h3 class="font-semibold leading-tight mb-2 text-2xl">Do you offer a warranty?</h3>
-            <p class="leading-normal text-xl md:text-2xl mb-6">Yes. We will provide you with a full refund, if your item is returned to us within 30 days.</p>
+            <div class="mb-4 border border-offblack-200 rounded-lg">
+                <div class="relative">
+                    <input type="checkbox" id="faq2" class="accordion-checkbox">
+                    <label for="faq2" class="flex items-center justify-between p-4 pb-3 bg-white rounded-t-lg">
+                        <h2 class="font-medium leading-tight mb-2 text-xl w-[80%]">How do I use furfy?</h2>
+                        <svg class="w-6 h-6 text-gray-500 arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </label>
+                    <div class="accordion-content px-4 rounded-b-lg bg-white" style="border-bottom-left-radius: 0.5rem; border-bottom-right-radius: 0.5rem;">
+                        <ul class="font-normal leading-normal list-disc list-outside mb-6 pl-8 text-lg text-offblack-400">
+                            <li>Place furfy onto surface and rapidly move back and forth until area is clear from hair and fur.</li>
+                            <li>Make sure you press on the furfy firmly when rolling it back and forth on the surface.</li>
+                            <li>Do not use the furfy directly on your pet. Recommended for use on surfaces and materials only.</li>
+                            <li>Be sure to clean the dust receptacle regularly, and after use.</li>
+                            <li>Do not wash the brush surface directly with water. If required, instead use a damp towel to clean the surface.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mb-4 border border-offblack-200 rounded-lg">
+                <div class="relative">
+                    <input type="checkbox" id="faq3" class="accordion-checkbox">
+                    <label for="faq3" class="flex items-center justify-between p-4 pb-3 bg-white rounded-t-lg">
+                        <h2 class="font-medium leading-tight mb-2 text-xl w-[80%]">Is furfy for me?</h2>
+                        <svg class="w-6 h-6 text-gray-500 arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </label>
+                    <div class="accordion-content px-4 rounded-b-lg bg-white" style="border-bottom-left-radius: 0.5rem; border-bottom-right-radius: 0.5rem;">
+                        <p class="font-normal leading-normal mb-2 text-lg text-offblack-400">If you say yes to any of the following questions, then the furfy is for you!</p>
+                        <ul class="font-normal leading-normal list-disc list-outside mb-6 pl-8 text-lg text-offblack-400">
+                            <li>Does your pet shed fur all over the place?</li>
+                            <li>Are you sick of buying refills for removal devices over and over again?</li>
+                            <li>Are you looking for a reusable, eco-friendly solution to pet hair?</li>
+                            <li>You don’t want to use a power sourced device?</li>
+                            <li>Are you looking for a device which is noise-free and won’t scare your pet away?</li>
+                            <li>Do you want a remover which is easy to use, and you can clean with the push of a button?</li>
+                            <li>Are you looking for something to remove that pet fur on the go, or when travelling?</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mb-4 border border-offblack-200 rounded-lg">
+                <div class="relative">
+                    <input type="checkbox" id="faq4" class="accordion-checkbox">
+                    <label for="faq4" class="flex items-center justify-between p-4 pb-3 bg-white rounded-t-lg">
+                        <h2 class="font-medium leading-tight mb-2 text-xl w-[80%]">How does furfy work?</h2>
+                        <svg class="w-6 h-6 text-gray-500 arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </label>
+                    <div class="accordion-content px-4 rounded-b-lg bg-white" style="border-bottom-left-radius: 0.5rem; border-bottom-right-radius: 0.5rem;">
+                        <p class="font-normal leading-normal text-lg text-offblack-400 mb-6">By simply moving the furfy roller back and forth firmly, you immediately track and pick up pet hair embedded deeply in all of your household furniture, fabrics, carpets, car seats, and many other materials.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mb-4 border border-offblack-200 rounded-lg">
+                <div class="relative">
+                    <input type="checkbox" id="faq5" class="accordion-checkbox">
+                    <label for="faq5" class="flex items-center justify-between p-4 pb-3 bg-white rounded-t-lg">
+                        <h2 class="font-medium leading-tight mb-2 text-xl w-[80%]">What is furfy made from?</h2>
+                        <svg class="w-6 h-6 text-gray-500 arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </label>
+                    <div class="accordion-content px-4 rounded-b-lg bg-white" style="border-bottom-left-radius: 0.5rem; border-bottom-right-radius: 0.5rem;">
+                        <p class="font-normal leading-normal text-lg text-offblack-400 mb-6">The furfy uses BPA-free plastic, making it a safer option for our pets and their humans! The furfy is built to last, it’s designed in Japan and carries a worldwide patent.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mb-4 border border-offblack-200 rounded-lg">
+                <div class="relative">
+                    <input type="checkbox" id="faq6" class="accordion-checkbox">
+                    <label for="faq6" class="flex items-center justify-between p-4 pb-3 bg-white rounded-t-lg">
+                        <h2 class="font-medium leading-tight mb-2 text-xl w-[80%]">I have used other pet hair removers like this, so why is furfy different?</h2>
+                        <svg class="w-6 h-6 text-gray-500 arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </label>
+                    <div class="accordion-content px-4 rounded-b-lg bg-white" style="border-bottom-left-radius: 0.5rem; border-bottom-right-radius: 0.5rem;">
+                        <p class="font-normal leading-normal text-lg text-offblack-400 mb-6">There are cheap imitations that look very similar, but they don’t work effectively and do break easily. The furfy is 100% reusable, so it’s friendly for the environment and far less likely to end up in landfill.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mb-4 border border-offblack-200 rounded-lg">
+                <div class="relative">
+                    <input type="checkbox" id="faq7" class="accordion-checkbox">
+                    <label for="faq7" class="flex items-center justify-between p-4 pb-3 bg-white rounded-t-lg">
+                        <h2 class="font-medium leading-tight mb-2 text-xl w-[80%]">How do i clean the furfy?</h2>
+                        <svg class="w-6 h-6 text-gray-500 arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </label>
+                    <div class="accordion-content px-4 rounded-b-lg bg-white" style="border-bottom-left-radius: 0.5rem; border-bottom-right-radius: 0.5rem;">
+                        <p class="font-normal leading-normal text-lg text-offblack-400 mb-6">Pet hair and lint can easily be removed from the dust receptacle by pressing the button on the roller and lifting the hatch.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mb-4 border border-offblack-200 rounded-lg">
+                <div class="relative">
+                    <input type="checkbox" id="faq8" class="accordion-checkbox">
+                    <label for="faq8" class="flex items-center justify-between p-4 pb-3 bg-white rounded-t-lg">
+                        <h2 class="font-medium leading-tight mb-2 text-xl w-[80%]">Where does furfy deliver to?</h2>
+                        <svg class="w-6 h-6 text-gray-500 arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </label>
+                    <div class="accordion-content px-4 rounded-b-lg bg-white" style="border-bottom-left-radius: 0.5rem; border-bottom-right-radius: 0.5rem;">
+                        <p class="font-normal leading-normal text-lg text-offblack-400 mb-6">Furfy ships worldwide. Shipping is free within Australia and the USA, with a low flat rate to other countries.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mb-4 border border-offblack-200 rounded-lg">
+                <div class="relative">
+                    <input type="checkbox" id="faq9" class="accordion-checkbox">
+                    <label for="faq9" class="flex items-center justify-between p-4 pb-3 bg-white rounded-t-lg">
+                        <h2 class="font-medium leading-tight mb-2 text-xl w-[80%]">How long will my furfy take to be delivered?</h2>
+                        <svg class="w-6 h-6 text-gray-500 arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </label>
+                    <div class="accordion-content px-4 rounded-b-lg bg-white" style="border-bottom-left-radius: 0.5rem; border-bottom-right-radius: 0.5rem;">
+                        <p class="font-normal leading-normal text-lg text-offblack-400 mb-6">Your order will be processed immediately and dispatched either on the same or next business day, so there’s no extended time waiting for your furfy. We ship from our warehouses in Sydney, Australia and Atlanta, USA.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mb-4 border border-offblack-200 rounded-lg">
+                <div class="relative">
+                    <input type="checkbox" id="faq10" class="accordion-checkbox">
+                    <label for="faq10" class="flex items-center justify-between p-4 pb-3 bg-white rounded-t-lg">
+                        <h2 class="font-medium leading-tight mb-2 text-xl w-[80%]">Do you deliver internationally?</h2>
+                        <svg class="w-6 h-6 text-gray-500 arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </label>
+                    <div class="accordion-content px-4 rounded-b-lg bg-white" style="border-bottom-left-radius: 0.5rem; border-bottom-right-radius: 0.5rem;">
+                        <p class="font-normal leading-normal text-lg text-offblack-400 mb-6">Yes we sure do, with a low flat rate to international destinations.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mb-4 border border-offblack-200 rounded-lg">
+                <div class="relative">
+                    <input type="checkbox" id="faq11" class="accordion-checkbox">
+                    <label for="faq11" class="flex items-center justify-between p-4 pb-3 bg-white rounded-t-lg">
+                        <h2 class="font-medium leading-tight mb-2 text-xl w-[80%]">Can i return furfy once its been opened?</h2>
+                        <svg class="w-6 h-6 text-gray-500 arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </label>
+                    <div class="accordion-content px-4 rounded-b-lg bg-white" style="border-bottom-left-radius: 0.5rem; border-bottom-right-radius: 0.5rem;">
+                        <p class="font-normal leading-normal text-lg text-offblack-400 mb-6">Yes. If you’re not totally satisfied with furfy, return your product (undamaged) to us within 30 days of purchase and we will provide you with a full refund.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mb-4 border border-offblack-200 rounded-lg">
+                <div class="relative">
+                    <input type="checkbox" id="faq12" class="accordion-checkbox">
+                    <label for="faq12" class="flex items-center justify-between p-4 pb-3 bg-white rounded-t-lg">
+                        <h2 class="font-medium leading-tight mb-2 text-xl w-[80%]">Do you offer a warranty?</h2>
+                        <svg class="w-6 h-6 text-gray-500 arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </label>
+                    <div class="accordion-content px-4 rounded-b-lg bg-white" style="border-bottom-left-radius: 0.5rem; border-bottom-right-radius: 0.5rem;">
+                        <p class="font-normal leading-normal text-lg text-offblack-400 mb-6">Yes. We will provide you with a full refund, if your item is returned to us within 30 days.</p>
+                    </div>
+                </div>
+            </div>
+            
         </section>  
     </main>
 
     <footer class="bg-offblack-400 mt-4 py-10">
         <a href="/">
-            <img src="assets/images/furfylogowhite_a4120979-864d-4d03-86e9-2f1f664f285f.svg" width="150" height="72" class="mb-4 mx-auto">
+            <img src="assets/images/furfylogowhite_a4120979-864d-4d03-86e9-2f1f664f285f.svg" width="150" height="72" class="mb-1 mx-auto w-24">
         </a>
-        <p class="text-center text-offblack-100">&copy; 2025 Furfy</p>
+        <p class="font-light text-center text-offblack-100 text-sm">&copy; 2025 Furfy</p>
     </footer>
 
     <!-- // Scripts // -->
